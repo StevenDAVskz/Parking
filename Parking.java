@@ -30,6 +30,7 @@ public static void Chose(int opRespuesta){
     switch (opRespuesta) {
         case 1:
             System.out.println("Igresando");
+            ingresando();
             break;
         case 2:
         System.out.println("Consultando");
@@ -55,7 +56,15 @@ public static void ingresando(){
     String NombreUser = leer.next();
     System.out.println("Ingrese su apellido");
     String ApellidoUser = leer.next();
-    System.out.println("Ingrese ");
+    System.out.println("Ingrese su segundo apellido");
+    String Apellido2User = leer.next();
+    System.out.println("Ingrese su email");
+    String EmailUser = leer.next();
+    System.out.println("Ingrese su rol");
+    System.out.println("Funcionario\n Normal\n Invitado" );
+    String RolUser = leer.next();
+    System.out.println("Ingrese su telefono");
+    int TelUsuer = leer.nextInt();
 }
 
 }
